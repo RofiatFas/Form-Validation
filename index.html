@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link
+          rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+          crossorigin="anonymous"/>
+    <title>Form Validation</title>
+</head>
+<body>
+   
+    <div class="container">
+        <form id="form">
+            <div class="title">Registration Form</div>
+
+            <!-- First Name input -->
+            <div>
+                <label for="firstname">First Name</label>
+                <i class="fas fa-user"></i>
+
+                <input 
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    placeholder="Franscis"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Last Name input -->
+            <div>
+                <label for="lastname">Last Name</label>
+                <i class="fas fa-user"></i>
+
+                <input 
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Lovelime"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Username Input -->
+            <div>
+                <label for="username">Username</label>
+                <i class="fas fa-user"></i>
+
+                <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="FranscisLove"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- E-mail input -->
+            <div>
+                <label for="email">E-mail</label>
+                <i class="far fa-envelope"></i>
+
+                <input 
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="francisloveline@gmail.com"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Password input -->
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+
+                <input 
+                    type="text"
+                    name="password"
+                    id="password"
+                    placeholder="Enter password"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+            <!-- Phone number input -->
+            <div>
+                <label for="phonenumber">Phone number</label>
+                <i class="fas fa-phone"></i>
+
+                <input 
+                    type="text"
+                    name="phonenumber"
+                    id="phonenumber"
+                    placeholder="Start with your country code"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="btn" type="submit">Submit</button>
+
+        </form>
+
+        
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
